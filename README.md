@@ -55,7 +55,7 @@ The report will be sort, but it will contain a list of ports with their state an
  ## _-O_
  #### If you would like information on the operating system being run on the target machine, you can add the -O flag to tell Nmap to probe for operating system information as well. Nmap is not super accurate when it comes to operating system information, but it usually gets very close.
  
- ![image](
+ ![image](https://user-images.githubusercontent.com/84526848/121816771-898be080-cc8e-11eb-9fac-c3ee8e86f74a.png)
  
  
  
