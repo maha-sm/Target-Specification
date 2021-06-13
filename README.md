@@ -23,4 +23,21 @@
 
 #### What you'll see when Nmap finishes is a list of every devices that was reachable. Each device will have a name(if applicable), IP address, and MAC address with a manufacturer. By using the names and the hardware manufacturers, you should be able to tell what each device on your network is. Pick a computer that you own, and scan it.
 
+![image](https://user-images.githubusercontent.com/84526848/121816219-71669200-cc8b-11eb-98cf-a3d89ac53798.png)
+
+#### You can just write in the IP of that computer. Nmap will take a few seconds to probe the computer with packets and report back.
+The report will be sort, but it will contain a list of ports with their state and which service they correspond to. It will also show that MAC address information and your IP again.
+## _Useful Flags_
+#### Even though the defaults do give some useful information, and you can tell which ports are open, it would still be nice to get some more data. Nmap has tons of flags that you can set to specify just how you would like it to run. There are way too many to cover in this basic guide, but you can always check out Nmap's detailed manpage for more.
+
+## _-sS_
+#### The -sS flag is the default scanning flag for Nmap. It just specifies the way that Nmap will scan. Even though it's the default, it's probably a good idea to specify it anyway.
+
+## _-T_
+#### Timing can be important. Not only does the timing of the scan determine how long scanning will take, but it can also be instrumental in triggering or not triggering firewalls and other safeguards on a target system. While Nmap offers more fine-grained timing control, it also provides a set of six pre-built timing schemes with the -T flag. These timings range from 0 through 5, with 0 being the slowest and least invasive and 5 being the fastest and most overt. -T3 is the default timing flag, but many users prefer -T4 to speed up the scan.
+
+## _-iL_
+#### You can use Nmap to scan multiple targets at once. Doing so can easily be done in-line when you run Nmap.
+
+
 
