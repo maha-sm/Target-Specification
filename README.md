@@ -63,9 +63,12 @@ The report will be sort, but it will contain a list of ports with their state an
  
  ##_sV_
  #### Sometimes, it's useful to know what software and what versions of that software a machine is running. This is especially good for investigating your own servers. It also gives you insight into what server information others can see. Nmap's -sV allows you to get as detailed information as possible about the services running on a machine.
+ ![image](https://user-images.githubusercontent.com/84526848/121816882-39614e00-cc8f-11eb-9437-cd7b61f78fd0.png)
  
+ ## _p_
+ #### Occasionally, you may only want to scan select ports with Nmap. The -p flag allows you to specify specific ports for Nmap to scan. Nmap will then only scan those specified ports on the target machine.
  
- 
+
  
  
 
