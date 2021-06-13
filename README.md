@@ -12,7 +12,10 @@
 ## _what seperates nmap from other scanners?_
 #### The best thing about Nmap is it’s free and open source and is very flexible and versatile. Nmap is often used to determine alive hosts in a network, open ports on those hosts, services running on those open ports, and version identification of that service on that port. It can also run vulnerability assessment scripts to determine if a service is vulnerable. It can be used by penetration testers to identify open ports to gather more information about a target, or can be used by a security administrator to identify open ports in their systems but are not in use. With its usefulness, the security community have long accepted that Nmap is the de-facto tool for network mapping and host identification.
 
-## _nmap synatx_
+## _nmap syntax_
 #### Now before we dive to examples, we want to break down how Nmap syntax is usually structured, as it is good practice to have this by memory. Although in our experience, sequence of flags is not that important(there are cases they are) most of the time. In fact, for a scan to proceed, Nmap only needs a target. This format is vague and is not required, but according to documentation, Nmap follows the format:
 
 ![image](https://user-images.githubusercontent.com/84526848/121815806-4418e480-cc89-11eb-91f3-466318ddc4ce.png)
+
+## _basic scans_
+#### Nmap has fairly intelligent defaults set, so you are able to just open up Nmap and run a scan without specifying anything but the target. So, why not try it out on a computer on your network. Scanning the computer running Kali isn't going to give you much of anything, so it's best to pick another computer that you own. If you already know the IP of one, awesome. If not, Nmap has a tool to get the IP addresses of the computers on your network.
