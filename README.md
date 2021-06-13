@@ -67,7 +67,7 @@ The report will be sort, but it will contain a list of ports with their state an
  
  ## _p_
  #### Occasionally, you may only want to scan select ports with Nmap. The -p flag allows you to specify specific ports for Nmap to scan. Nmap will then only scan those specified ports on the target machine.
- 
+ ![image](https://user-images.githubusercontent.com/84526848/121817053-226f2b80-cc90-11eb-9adb-b18bea1d1450.png)
 
  
  
