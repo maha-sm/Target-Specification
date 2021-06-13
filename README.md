@@ -42,6 +42,9 @@ The report will be sort, but it will contain a list of ports with their state an
 
  #### For a small number of targets this works, but it can quickly become cumbersome and isn't all that readily repeatable. The -iL flag imports a list of targets for Nmap to use. This way, you can save targets and repeat scans at a later date.
  #### Before running Nmap, open up your text editor of choice and enter in a couple of the IPs on your network.
+ ![image](https://user-images.githubusercontent.com/84526848/121816500-159d0880-cc8d-11eb-9833-e7340fc48d2d.png)
+ #### Save that file and run Nmap with the -iL flag.
+ 
  
 
 
