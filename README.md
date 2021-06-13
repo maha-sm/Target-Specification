@@ -44,6 +44,12 @@ The report will be sort, but it will contain a list of ports with their state an
  #### Before running Nmap, open up your text editor of choice and enter in a couple of the IPs on your network.
  ![image](https://user-images.githubusercontent.com/84526848/121816500-159d0880-cc8d-11eb-9833-e7340fc48d2d.png)
  #### Save that file and run Nmap with the -iL flag.
+ ![image](https://user-images.githubusercontent.com/84526848/121816598-978d3180-cc8d-11eb-9f2b-8d12fe4212bd.png)
+ 
+ #### Nmap will read through the list and preform a scan on each entry.
+ ## _-F_
+ #### By default, Nmap will scan the 1000 most commonly used ports on a target machine. This, of course, takes time. If you know that you only need to or only want to scan the most common ports to reduce the run time of Nmap, you can use the -F flag. The -F flag tells Nmap to only scan the 100 most commonly used ports instead of the usual 1000.
+ 
  
  
 
