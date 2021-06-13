@@ -38,6 +38,11 @@ The report will be sort, but it will contain a list of ports with their state an
 
 ## _-iL_
 #### You can use Nmap to scan multiple targets at once. Doing so can easily be done in-line when you run Nmap.
+![image](https://user-images.githubusercontent.com/84526848/121816447-bb03ac80-cc8c-11eb-9e17-608b6b50a601.png)
+
+ #### For a small number of targets this works, but it can quickly become cumbersome and isn't all that readily repeatable. The -iL flag imports a list of targets for Nmap to use. This way, you can save targets and repeat scans at a later date.
+ #### Before running Nmap, open up your text editor of choice and enter in a couple of the IPs on your network.
+ 
 
 
 
