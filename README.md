@@ -57,6 +57,10 @@ The report will be sort, but it will contain a list of ports with their state an
  
  ![image](https://user-images.githubusercontent.com/84526848/121816771-898be080-cc8e-11eb-9fac-c3ee8e86f74a.png)
  
+ ## _open_
+ #### If you are only looking for which ports are open on a specific machine, you can tell Nmap to only look for open ports with the --open flag.
+ 
+ 
  
  
 
