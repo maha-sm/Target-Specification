@@ -50,6 +50,13 @@ The report will be sort, but it will contain a list of ports with their state an
  ## _-F_
  #### By default, Nmap will scan the 1000 most commonly used ports on a target machine. This, of course, takes time. If you know that you only need to or only want to scan the most common ports to reduce the run time of Nmap, you can use the -F flag. The -F flag tells Nmap to only scan the 100 most commonly used ports instead of the usual 1000.
  
+ ![image](https://user-images.githubusercontent.com/84526848/121816666-f9e63200-cc8d-11eb-842e-ef0e7ac8b1b5.png)
+ 
+ ## _-O_
+ #### If you would like information on the operating system being run on the target machine, you can add the -O flag to tell Nmap to probe for operating system information as well. Nmap is not super accurate when it comes to operating system information, but it usually gets very close.
+ 
+ ![image](
+ 
  
  
 
