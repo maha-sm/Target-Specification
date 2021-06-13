@@ -79,3 +79,6 @@ The report will be sort, but it will contain a list of ports with their state an
 
 ![image](https://user-images.githubusercontent.com/84526848/121817218-120b8080-cc91-11eb-9547-4b67aa10cf0b.png)
 #### You can find the full log in the text file when Nmap completes. If you want something ridiculous, try the -oS flag instead.
+## _Team Members_
+* Fatma Ates 18030411060
+* Maha Elsayed 19030441009
