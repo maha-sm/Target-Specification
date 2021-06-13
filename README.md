@@ -74,6 +74,7 @@ The report will be sort, but it will contain a list of ports with their state an
 #### By now, you've acquired a lot of flags to use. Using all of them together can be very awkward. Nmap has the -A for just this reason. It's sort of the "kitchen sink" flag that tells Nmap to aggressively gather as much information as it can.
  ![image](https://user-images.githubusercontent.com/84526848/121817162-b6d98e00-cc90-11eb-8379-9fce72a53f96.png)
  
-
+## _Logging Output_
+#### It would sure be able to store the results from Nmap. Well, you can. Nmap has yet another flag that allows you to store output in a variety of different formats. This is excellent for long scans like ones with the -p- flag. To use Nmap's logging capabilities, pass the -oN or -oX along with the name of the file. -oN logs the normal output. -oX logs the output as XML. By default, Nmap will overwrite existing logs with new ones, so be careful not to overwrite anything you don't want to.
 
 
