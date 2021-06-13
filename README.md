@@ -77,4 +77,5 @@ The report will be sort, but it will contain a list of ports with their state an
 ## _Logging Output_
 #### It would sure be able to store the results from Nmap. Well, you can. Nmap has yet another flag that allows you to store output in a variety of different formats. This is excellent for long scans like ones with the -p- flag. To use Nmap's logging capabilities, pass the -oN or -oX along with the name of the file. -oN logs the normal output. -oX logs the output as XML. By default, Nmap will overwrite existing logs with new ones, so be careful not to overwrite anything you don't want to.
 
-
+![image](https://user-images.githubusercontent.com/84526848/121817218-120b8080-cc91-11eb-9547-4b67aa10cf0b.png)
+#### You can find the full log in the text file when Nmap completes. If you want something ridiculous, try the -oS flag instead.
